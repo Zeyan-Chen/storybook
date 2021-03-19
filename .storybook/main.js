@@ -6,5 +6,8 @@ module.exports = {
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
+    "@storybook/addon-actions/register",
+    '@storybook/addon-knobs',
+    "storybook-zeplin/register"
   ]
 }
