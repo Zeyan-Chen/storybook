@@ -1,0 +1,28 @@
+.textAreaWrap {
+    display: flex;
+    flex-direction: column;
+
+    > span {
+        color: #999;
+    }
+}
+
+.textAreaSkin {
+    box-sizing: border-box;
+    border: 0px;
+    padding: 13px 14px;
+    color: #f1f1f1;
+    background-color: transparent;
+    width: 250px;
+    height: 146px;
+    border: solid 1px #505050;
+    background-color: #000000;
+    font-size: 15px;
+    resize: none; // 不想讓他在那邊調來調去
+    overflow: hidden;
+    white-space: pre-line;
+}
+
+.textAreaMaxText {
+    margin-top: 8px;
+}
