@@ -60,6 +60,7 @@ export class TextAreaBox extends React.Component {
             info = e.target.value;
         }
 
+
         /**
          * per 每幾個字換行
          */
