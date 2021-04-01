@@ -20,6 +20,9 @@ export default {
             description: '目前的字數'
         }
     },
+    parameters: {
+        zeplinLink: "https://app.zeplin.io/project/5f6c0d45d65a054728b3c438/screen/5f6c14780ba84b35e48e7a35",
+    },
 }
 
 const eventsFromObject = actions({ onChange: 'onChange' });
