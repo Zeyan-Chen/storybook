@@ -166,7 +166,10 @@ export class TextAreaBox extends React.Component {
 
     normal = (value) => {
         const { onChange } = this.props;
-        this.setState({ text: value }, () => onChange(value));
+        this.setState({ text: value }, () => {
+            if (!onChange) return;
+            onChange(value)
+        });
     }
 
     dependWidthNewLine = (value) => {
